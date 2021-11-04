@@ -32,4 +32,4 @@ age = getAge()
 # 4. Ask for address and then save to variable.
 address = getAddress()
 # 5. Display first name, last name, age, and address.
-displayOutput( Lname, name, age, address)
+displayOutput(Lname, name, age, address)
