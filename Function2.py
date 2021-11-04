@@ -1,13 +1,19 @@
+# Basic Function Program 2
+# Create a program that will ask how many apples and oranges you want to buy.
+# Display the total amount you need to pay if apple price is 20 pesos and orange is 25.
+# Display the output in the following format.
+# The total amount of the apples and oranges that you bought is ______.
+
 applePrice = 20
 orangePrice = 25
 
 def getApple():
-    apple_qty = int(input("Quantity of apple: "))
-    return apple_qty
+    appleQty = int(input("Quantity of apple: "))
+    return appleQty
 
 def getOrange():
-    orange_qty = int(input("Quantity of orange: "))
-    return orange_qty
+    orangeQty = int(input("Quantity of orange: "))
+    return orangeQty
 
 def getTotalApple():
     totalApple = (apple * applePrice)
@@ -27,4 +33,4 @@ getTotalApple = (apple * applePrice)
 getTotalOrange = (orange * orangePrice)
 total = (getTotalApple + getTotalOrange)
 
-print("The total amount is " , total)
+print("The total amount of the apples and oranges that you bought is" , total)
